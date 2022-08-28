@@ -1,4 +1,4 @@
-  <template>
+<template>
     
   <section class="relative block py-24 lg:pt-0 bg-gray-900 font-Changa">
         <div class="container mx-auto px-4">
@@ -7,7 +7,7 @@
               <div
                 class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
               >
-              <form class="form">
+              <form @submit.prevent="sendEmail">
                 <div class="flex-auto p-5 lg:p-10">
                   <h4 class="text-2xl font-semibold">تريد العمل معنا ؟ </h4>
                   <p class="leading-relaxed mt-1 mb-4 text-gray-600">
@@ -21,8 +21,9 @@
                     ><input
                       type="text"
                       class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Full Name"
-                      style="transition: all 0.15s ease 0s;"
+                      v-model="name"
+                      name="name"
+                      placeholder="Your Name"
                     />
                   </div>
                   <div class="relative w-full mb-3">
@@ -32,8 +33,10 @@
                       >البريد الإلكتروني </label
                     ><input
                       type="email"
+                      name="email"
                       class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                       placeholder="Email"
+                      v-model="email"
                       style="transition: all 0.15s ease 0s;"
                     />
                   </div>
@@ -45,18 +48,15 @@
                     ><textarea
                       rows="4"
                       cols="80"
+                      v-model="message"
+                      name="message"
                       class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                       placeholder="Type a message..."
                     ></textarea>
                   </div>
                   <div class="text-center mt-6">
-                    <button
-                      class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                      style="transition: all 0.15s ease 0s;"
-                    >
-                      أرسل
-                    </button>
+                    <input type="submit" value="Send">
+
                   </div>
                 </div>
               </form>
@@ -67,11 +67,38 @@
       </section>
   
   </template>
-  
+
 <script>
+import emailjs from 'emailjs-com';
 
 export default {
-  name: "EmailJs",
+name: 'EmailJs',
+data() {
+  return {
+    name: '',
+    email: '',
+    message: ''
+  }
+},
+methods: {
+  sendEmail(e) {
+    try {
+      emailjs.sendForm('service_0ybg9d6', 'template_9z9dng7', e.target, 'aImt3UnW0anRt23hU', {
+        name: this.name,
+        email: this.email,
+        message: this.meessage
+      })
 
+    } catch (error) {
+        console.log({error})
+    }
+    // Reset form field
+    this.name = ''
+    this.email = ''
+    this.message = ''
+  },
+}
 }
 </script>
+
+
