@@ -20,14 +20,13 @@
           <i class="text-white fas fa-bars"></i>
         </button>
       </div>
+      
       <div
         class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none"
         v-bind:class="{'hidden': !showMenu, 'block': showMenu}"
       >
-        <ul class="flex flex-col lg:flex-row list-none mr-auto">
-           
-        </ul>
-        <ul class="flex flex-col lg:flex-row list-none  mr-auto ml-70px">
+        
+        <ul class="flex flex-col lg:flex-row list-none justify-center items-center mr-auto  ">
          
           <li class="flex items-center">
             <button
@@ -35,7 +34,7 @@
               type="button"
               style="transition: all 0.15s ease 0s;"
             >
-              <i class="fas fa-arrow-alt-home"></i> الرئيسية
+              <i class="fas fa-arrow"></i> إتصل بنا
             </button>
             <button
               class="bg-transparent hover:bg-blue-200 text-white font-Changa hover:text-white py-2 px-4 border border-blue-300 hover:border-transparent rounded"
@@ -56,8 +55,9 @@
               type="button"
               style="transition: all 0.15s ease 0s;"
             >
-              <i class="fas fa-arrow"></i> إتصل بنا
+              <i class="fas fa"></i> المؤسسون
             </button>
+            
           </li>
           
         </ul>
@@ -88,7 +88,7 @@
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="#pablo"
               ><i
-                class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "
+                class="lg:text-gray-300 text-gray-500 fab fa-linkedin text-lg leading-lg "
               ></i
               ><span class="lg:hidden inline-block ml-2">Star</span></a
             >

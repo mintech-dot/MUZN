@@ -22,9 +22,9 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4">
-          <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+          <h4 class="text-3xl font-semibold">لنبقى على تواصل  </h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
-            Find us on any of these platforms, we respond 1-2 business days.
+            تجدنا على أي من هذه المنصات   
           </h5>
           <div class="mt-6">
             <button
@@ -55,71 +55,80 @@
             <div class="w-full lg:w-4/12 px-4 ml-auto">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                >Useful Links</span
+                >روابط مفيدة</span
               >
               <ul class="list-unstyled">
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.creative-tim.com/presentation"
-                    >About Us</a
+                    href="#"
+                    v-scroll-to="'#scrollTeam'"
+                    >تعرف علينا </a
                   >
                 </li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://blog.creative-tim.com"
-                    >Blog</a
+                    href="#"
+                    v-scroll-to="'#scrollWho'"
+                    >من نحن</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.github.com/creativetimofficial"
-                    >Github</a
+                    href="#"
+                    v-scroll-to="'#'"
+                    >كن شريك</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.creative-tim.com/bootstrap-themes/free"
-                    >Free Products</a
+                    href="#"
+                    v-scroll-to="'#'"
+                    >كن ممول</a
                   >
                 </li>
+                
               </ul>
             </div>
             <div class="w-full lg:w-4/12 px-4">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                >Other Resources</span
+                >مصادر أخرى</span
               >
               <ul class="list-unstyled">
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
-                    >MIT License</a
+                    href="#"
+                    v-scroll-to="'#'"
+                    >نشطاتنا</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://creative-tim.com/terms"
-                    >Terms &amp; Conditions</a
+                    href="#"
+                    v-scroll-to="'#'"
+                    >الشروط  &amp; القوانين</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://creative-tim.com/privacy"
-                    >Privacy Policy</a
+                    href="#"
+                    v-scroll-to="'#'"
+                    >سياسة الخصوصية</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://creative-tim.com/contact-us"
-                    >Contact Us</a
+                    href="#"
+                    v-scroll-to="'#scrollEmail'"
+                    >تواصل معنا</a
                   >
                 </li>
               </ul>
@@ -133,12 +142,9 @@
       >
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
           <div class="text-sm text-gray-600 font-semibold py-1">
-            Copyright © {{date}} MUZN by
-            <a
-              href="https://www.creative-tim.com"
-              class="text-gray-600 hover:text-gray-900"
-              >ATM</a
-            >.
+            
+            {{date}}   © كل الحقوق محفوظة لجامعة مزن للتعليم المفتوح
+           
           </div>
         </div>
       </div>
@@ -146,6 +152,7 @@
   </footer>
 </template>
 <script>
+
 export default {
   name: "footerFront",
 

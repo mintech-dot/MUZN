@@ -1,6 +1,6 @@
 <template>
     
-  <section class="relative block py-24 lg:pt-0 bg-gray-900 font-Changa">
+  <section class="relative block py-24 lg:pt-0 bg-gray-900 font-Changa" >
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
             <div class="w-full lg:w-6/12 px-4">
@@ -9,7 +9,7 @@
               >
               <form @submit.prevent="sendEmail">
                 <div class="flex-auto p-5 lg:p-10">
-                  <h4 class="text-2xl font-semibold">تريد العمل معنا ؟ </h4>
+                  <h4  class="text-2xl font-semibold">تريد العمل معنا ؟ </h4>
                   <p class="leading-relaxed mt-1 mb-4 text-gray-600">
                     قم بملأ هذه الإستمارة و سنرد عليك في أسرع وقت
                   </p>
@@ -23,7 +23,7 @@
                       class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                       v-model="name"
                       name="name"
-                      placeholder="Your Name"
+                      placeholder="إسمك الكامل"
                     />
                   </div>
                   <div class="relative w-full mb-3">
@@ -35,7 +35,7 @@
                       type="email"
                       name="email"
                       class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Email"
+                      placeholder="بريدك الإلكتروني"
                       v-model="email"
                       style="transition: all 0.15s ease 0s;"
                     />
@@ -51,11 +51,11 @@
                       v-model="message"
                       name="message"
                       class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Type a message..."
+                      placeholder="أكتب رسالتك .."
                     ></textarea>
                   </div>
                   <div class="text-center mt-6">
-                    <input type="submit" value="Send">
+                    <input type="submit" value="أرسل">
 
                   </div>
                 </div>

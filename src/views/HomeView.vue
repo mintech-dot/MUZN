@@ -65,8 +65,7 @@
                   </div>
                   <h6 class="text-xl font-semibold font-Changa">طلبة</h6>
                   <p class="mt-2 mb-4 text-gray-600 font-Changa">
-                    Divide details about your product or agency work into parts.
-                    A paragraph describing a feature will be enough.
+                    حان الوقت لتطور من نفسك و تكتسب مهارات عالية تسمح لك بالدخول لعالم العمل الحر.. سارع بالتسجيل 
                   </p>
                 </div>
               </div>
@@ -83,8 +82,8 @@
                   </div>
                   <h6 class="text-xl font-semibold font-Changa">أساتذة</h6>
                   <p class="mt-2 mb-4 text-gray-600 font-Changa">
-                    Keep you user engaged by providing meaningful information.
-                    Remember that by this time, the user is curious.
+                    جامعة مزن توفر لكم يا معشر الأساتذة  بيئة ملائمة للتعليم عن بعد بأحدث الطرق و التكونولجيات 
+                    .. شارك معنا كأستاذ و إبدأ التعليم العصري
                   </p>
                 </div>
               </div>
@@ -101,8 +100,7 @@
                   </div>
                   <h6 class="text-xl font-semibold font-Changa">منظمين</h6>
                   <p class="mt-2 mb-4 text-gray-600 font-Changa">
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough. Keep you user engaged!
+                    بمشاركنك معنا كمنظم ستكسب الكثير من الخبرات و المهارات و تطور من شخصيتك .. فالتطوع باب واسع  سيفتح لك افاق عديدة
                   </p>
                 </div>
               </div>
@@ -463,13 +461,11 @@
             ></polygon>
           </svg>
         </div>
-        <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+        <div id="scrollEmail" class="container mx-auto px-4 lg:pt-24 lg:pb-64">
           <div class="flex flex-wrap text-center justify-center">
             <div class="w-full lg:w-6/12 px-4">
               <h2 class="text-4xl font-semibold text-white" >تواصل معنا و شاركنا</h2>
-              <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                في الحياةِ التي نعرفْ لحظاتٌ قد يُصادفُ أنْ يمرُّ بها بعضنا. وفي الحياةِ الّتي لا نعرفْ، أشياءٌ سنقرأ عنها ذات يومْ.
-              </p>
+              
             </div>
           </div>
           <div class="flex flex-wrap mt-12 justify-center">
@@ -479,12 +475,11 @@
               >
                 <i class="fas fa-medal text-xl"></i>
               </div>
-              <h6 class="text-xl mt-5 font-semibold text-white">
-                Excelent Services
+              <h6 id="idEmail" class="text-xl mt-5 font-semibold text-white">
+                خبرة
               </h6>
               <p class="mt-2 mb-4 text-gray-500">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              في خبرتك لديك الكثير لتقوله لنا .. شاركنا رأيك
               </p>
             </div>
             <div class="w-full lg:w-3/12 px-4 text-center">
@@ -494,11 +489,10 @@
                 <i class="fas fa-poll text-xl"></i>
               </div>
               <h5 class="text-xl mt-5 font-semibold text-white">
-                Grow your market
+                ملاحظة
               </h5>
               <p class="mt-2 mb-4 text-gray-500">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                فالإنسان غير معصوم من الخطأ فشاركنا ملاحظاتك لتحسين هذه التجربة .. سنكون مسرورين بذلك 
               </p>
             </div>
             <div class="w-full lg:w-3/12 px-4 text-center">
@@ -507,10 +501,9 @@
               >
                 <i class="fas fa-lightbulb text-xl"></i>
               </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
+              <h5 class="text-xl mt-5 font-semibold text-white">فكرة</h5>
               <p class="mt-2 mb-4 text-gray-500">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                سنكون الفريق الذي تبحث عنه ونسعى لتطبيق أفكاركم المذهلة 
               </p>
             </div>
           </div>
@@ -537,4 +530,5 @@ export default {
     
 }
 }
+
 </script>
