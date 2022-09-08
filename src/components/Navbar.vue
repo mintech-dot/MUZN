@@ -34,21 +34,14 @@
               type="button"
               style="transition: all 0.15s ease 0s;"
             >
-              <i class="fas fa-arrow"></i> إتصل بنا
+              <i class="fas fa-arrow"></i> الرئيسية
             </button>
             <button
               class="bg-transparent hover:bg-blue-200 text-white font-Changa hover:text-white py-2 px-4 border border-blue-300 hover:border-transparent rounded"
               type="button"
               style="transition: all 0.15s ease 0s;"
             >
-              <i class="fas fa-arr"></i> عن مزن
-            </button>
-            <button
-              class="bg-transparent hover:bg-blue-200 text-white font-Changa hover:text-white py-2 px-4 border border-blue-300 hover:border-transparent rounded"
-              type="button"
-              style="transition: all 0.15s ease 0s;"
-            >
-              <i class="fas fa"></i> المؤسسون
+              <i class="fas fa-arr"></i> من نحن
             </button>
             <button
               class="bg-transparent hover:bg-blue-200 text-white font-Changa hover:text-white py-2 px-4 border border-blue-300 hover:border-transparent rounded"
@@ -56,6 +49,13 @@
               style="transition: all 0.15s ease 0s;"
             >
               <i class="fas fa"></i> المؤسسون
+            </button>
+            <button
+              class="bg-transparent hover:bg-blue-200 text-white font-Changa hover:text-white py-2 px-4 border border-blue-300 hover:border-transparent rounded"
+              type="button"
+              style="transition: all 0.15s ease 0s;"
+            >
+              <i class="fas fa"></i> إتصل بنا
             </button>
             
           </li>

@@ -108,7 +108,7 @@
           </div>
           <div class="flex flex-wrap items-center mt-32">
             <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
-              <div
+              <div id="scrollWho"
                 class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
               >
                 <i class="fas fa-user-friends text-xl"></i>
@@ -258,7 +258,7 @@
       </section>
       <section class="pt-20 pb-48 font-Changa">
         <div class="container mx-auto px-4">
-          <div class="flex flex-wrap justify-center text-center mb-24">
+          <div id="scrollTeam" class="flex flex-wrap justify-center text-center mb-24">
             <div class="w-full lg:w-6/12 px-4">
               <h2 class="text-4xl font-semibold">فريق منصة مزن </h2>
               <p class="text-lg leading-relaxed m-4 text-gray-600">
