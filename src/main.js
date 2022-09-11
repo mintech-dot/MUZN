@@ -17,4 +17,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fas)
 var VueScrollTo = require('vue-scrollto');
 
+
+
+
 createApp(App).component('fa', FontAwesomeIcon).use(store).use(router).use(VueScrollTo).mount('#app')
