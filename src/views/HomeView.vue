@@ -22,6 +22,7 @@
                 <h1 class="text-white font-semibold text-5xl font-Changa">
                     مزن 
                 </h1>
+              
                 <p class="mt-4 text-lg text-gray-300 font-Changa">
                 الجامعة العربية للتعليم المفتوح
 
@@ -65,7 +66,10 @@
                   </div>
                   <h6 class="text-xl font-semibold font-Changa">طلبة</h6>
                   <p class="mt-2 mb-4 text-gray-600 font-Changa">
-                    حان الوقت لتطور من نفسك و تكتسب مهارات عالية تسمح لك بالدخول لعالم العمل الحر.. سارع بالتسجيل 
+                     حان الوقت لتطور نفسك و تكتسب مهارات عالية تسمح لك بالدخول لعالم الئغل سارع بالتسجيل من 
+                    <a href ="https://www.google.com"> 
+                      <strong>هنا </strong> 
+                    </a>
                   </p>
                 </div>
               </div>
@@ -82,8 +86,7 @@
                   </div>
                   <h6 class="text-xl font-semibold font-Changa">أساتذة</h6>
                   <p class="mt-2 mb-4 text-gray-600 font-Changa">
-                    جامعة مزن توفر لكم يا معشر الأساتذة  بيئة ملائمة للتعليم عن بعد بأحدث الطرق و التكونولجيات 
-                    .. شارك معنا كأستاذ و إبدأ التعليم العصري
+                    جامعة مزن توفر لكم بيئة ملائمة للتعليم عن بعد بأحدث الطرق و التكنولوجيات.
                   </p>
                 </div>
               </div>
@@ -100,15 +103,15 @@
                   </div>
                   <h6 class="text-xl font-semibold font-Changa">منظمين</h6>
                   <p class="mt-2 mb-4 text-gray-600 font-Changa">
-                    بمشاركنك معنا كمنظم ستكسب الكثير من الخبرات و المهارات و تطور من شخصيتك .. فالتطوع باب واسع  سيفتح لك افاق عديدة
-                  </p>
+                    بمشاركنك معنا كمنظم ستكسب الكثير من الخبرات و المهارات و تطور من مهاراتك الادارية          
+                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="flex flex-wrap items-center mt-32">
+          <div id="scrollWho" class="flex flex-wrap items-center mt-32">
             <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
-              <div id="scrollWho"
+              <div 
                 class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
               >
                 <i class="fas fa-user-friends text-xl"></i>
@@ -119,14 +122,14 @@
               <p
                 class="text-xl font-light leading-relaxed mt-4 mb-4 text-gray-700 font-Changa"
               >
-               منصة مزن توفر تكوين مجاني عالي الجودة في تخصصات علوم الحاسوب . 
-               نسعى إلى رفع مستوى التعليم الإلكتروني في الوطن العربي و أن تكون حلقة وصل بين
-               سوق العمل و المتكونين لدينا بالإضافة لتوفير فرصة لأصحاب الخبرات و المدرسين للوصول إلى جمهور أكبر
+              منصة مزن توفر تكوين عالي الجودة في تخصصات علوم الحاسوب. 
+               نسعى إلى رفع مستوى التعليم الإلكتروني في الوطن العربي و أن نكون حلقة وصل بين
+               سوق العمل و خرّجِينا، بالإضافة لتوفير فرصة لأصحاب الشركات للحصول على مبرمجين حسب الطلب و توفير عناء البحث عليهم.
               </p>
               <p
                 class="text-xl font-light leading-relaxed mt-0 mb-4 text-gray-700"
               >
-               ...
+               
               </p>
               <a
                 href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
@@ -140,7 +143,7 @@
               >
                 <img
                   alt="..."
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80"
+                  src="../assets/img/annie-spratt.jpg"
                   class="w-full align-middle rounded-t-lg"
                 />
                 <blockquote class="relative p-8 mb-4">
@@ -157,10 +160,10 @@
                     ></polygon>
                   </svg>
                   <h4 class="text-xl font-bold text-white">
-                    خدماتنا 
+                    إلتحق بنا 
                   </h4>
                   <p class="text-md font-light mt-2 text-white font-Changa">
-                    احدث التكنولوجيات مع افضل الأساتذة
+تعلم بأحدث الطرق الفعالة.. لا تتأخر أكثر
                   </p>
                 </blockquote>
               </div>
@@ -194,7 +197,7 @@
               <img
                 alt="..."
                 class="max-w-full rounded-lg shadow-lg"
-                src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
+                src="../assets/img/erge-mahindra.jpg"
               />
             </div>
             <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -204,10 +207,9 @@
                 >
                   <i class="fas fa-rocket text-xl"></i>
                 </div>
-                <h3 class="text-3xl font-semibold font-Changa"> اطمح، تعلّم، تقدّم </h3>
+                <h3 class="text-3xl font-semibold font-Changa">  اطمح، تعلّم، تقدّم و احصل على وظيفة</h3>
                 <p class="mt-4 text-lg leading-relaxed text-gray-600 font-Changa">
-                  قم ببناء مهاراتك العمليّة من خلال الالتحاق ببرامج تدريبيّة متطوّرة، واكتسب شهادات تساعدك للدخول في سوق العمل وتطوير مسيرتك المهنية
-               </p>
+                  قم ببناء مهاراتك العمليّة من خلال الالتحاق ببرامج تدريبيّة متطوّرة، واختصر على نفسك طريقك نحو  العمل بفضل شراكتنا مع الشركات التقنية.               </p>
                 <ul class="list-none mt-6">
                   <li class="py-2">
                     <div class="flex items-center">
@@ -219,7 +221,7 @@
                       </div>
                       <div>
                         <h4 class="text-gray-600 font-Changa">
-                          أحدث التكنولوجيات
+                          منهج تعليمي ثري
                         </h4>
                       </div>
                     </div>
@@ -246,7 +248,7 @@
                         ></span>
                       </div>
                       <div>
-                        <h4 class="text-gray-600 font-Changa">مجانا</h4>
+                        <h4 class="text-gray-600 font-Changa">أحدث التكنولوجيات</h4>
                       </div>
                     </div>
                   </li>
@@ -267,45 +269,12 @@
             </div>
           </div>
           <div class="flex flex-wrap">
+            
             <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
               <div class="px-6">
                 <img
                   alt="..."
-                  src="../assets/img/team-1-800x800.jpg"
-                  class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">سمية مدية</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    مؤسسة مزن
-                  </p>
-                  <div class="mt-6">
-                    <button
-                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-twitter"></i></button
-                    ><button
-                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-facebook-f"></i></button
-                    ><button
-                      class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-dribbble"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="../assets/img/team-1-800x800.jpg"
+                  src="../assets/img/asma.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
@@ -316,16 +285,12 @@
                   </p>
                   <div class="mt-6">
                     <button
-                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-google"></i></button
-                    ><button
                       class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
+                      href="https://www.linkedin.com/in/asma-merabet-3b799818b/"
                     >
-                      <i class="fab fa-facebook-f"></i>
-                    </button>
+                      <i class="fab fa-linkedin"></i></button
+                    >
                   </div>
                 </div>
               </div>
@@ -334,7 +299,32 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="../assets/img/team-1-800x800.jpg"
+                  src="../assets/img/soumia.jpg"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">سمية مدية</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    مؤسسة مزن
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                      href="https://www.linkedin.com/in/soumia-media/"
+                    >
+                      <i class="fab fa-linkedin"></i></button
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="../assets/img/miloud.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
@@ -345,21 +335,18 @@
                   </p>
                   <div class="mt-6">
                     <button
-                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
+                      href="https://www.linkedin.com/in/miloud-mokkedem/"
                     >
-                      <i class="fab fa-google"></i></button
+                      <i class="fab fa-linkedin"></i></button
                     ><button
-                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      class="bg-slate-900 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
+                      href="https://github.com/MiilouDz"
                     >
-                      <i class="fab fa-twitter"></i></button
-                    ><button
-                      class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
+                      <i class="fab fa-github"></i></button
                     >
-                      <i class="fab fa-instagram"></i>
-                    </button>
                   </div>
                 </div>
               </div>
@@ -379,7 +366,7 @@
                   </p>
                   <div class="mt-6">
                     <button
-                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
                     >
                       <i class="fab fa-google"></i></button
@@ -402,7 +389,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="../assets/img/team-1-800x800.jpg"
+                  src="../assets/img/kawther.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
@@ -413,26 +400,12 @@
                   </p>
                   <div class="mt-6">
                     <button
-                      class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
+                      href="https://www.linkedin.com/in/kawther-hmidi-745a971b6/"
                     >
-                      <i class="fab fa-dribbble"></i></button
-                    ><button
-                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
+                      <i class="fab fa-linkedin"></i></button
                     >
-                      <i class="fab fa-google"></i></button
-                    ><button
-                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-twitter"></i></button
-                    ><button
-                      class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-instagram"></i>
-                    </button>
                   </div>
                 </div>
               </div>
@@ -528,7 +501,9 @@ export default {
     FooterComponent,
     EmailJs,
     
+},
+
 }
-}
+
 
 </script>

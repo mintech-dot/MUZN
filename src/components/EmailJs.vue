@@ -4,7 +4,7 @@
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
             <div class="w-full lg:w-6/12 px-4">
-              <div
+              <div v-if="statusEmail"
                 class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
               >
               <form @submit.prevent="sendEmail">
@@ -53,14 +53,18 @@
                       class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                       placeholder="أكتب رسالتك .."
                     ></textarea>
-                  </div>
+                  </div >
                   <div class="text-center mt-6">
                     <input class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit" value="أرسل">
-
+                    
                   </div>
                 </div>
-              </form>
+              
+               </form>
               </div>
+            
+              
+            
             </div>
           </div>
         </div>
@@ -77,7 +81,8 @@ data() {
   return {
     name: '',
     email: '',
-    message: ''
+    message: '',
+    statusEmail: true
   }
 },
 methods: {
@@ -86,17 +91,28 @@ methods: {
       emailjs.sendForm('service_0ybg9d6', 'template_9z9dng7', e.target, 'aImt3UnW0anRt23hU', {
         name: this.name,
         email: this.email,
-        message: this.meessage
-      })
+        message: this.meessage,
+        statusEmail: 200
+      }).then(function(response) {
+        if(response.status===200) this.statusEmail=false;
+      
+    }, function(err) {
+       console.log('FAILED...', err);
+    });
 
     } catch (error) {
+
         console.log({error})
     }
     // Reset form field
+    console.log(this.name);
+    
     this.name = ''
     this.email = ''
     this.message = ''
+    
   },
+
 }
 }
 </script>

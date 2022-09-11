@@ -3,19 +3,33 @@
     class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 "
   >
     <div
-      class="container px-4 mx-auto flex flex-wrap items-center justify-between font-Changa"
+      class="container mx-auto flex flex-wrap items-center justify-between font-Changa"
     >
       <div
         class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
       >
-        <a
+      <div>
+        <span class="text-4xl font-Changa cursor-pointer text-indigo-600">
+          
+          <img class="h-10 inline" src="../assets/logo.png">
+          - مزن
+          
+        </span>
+      </div>
+
+     <!--
+         <a
           class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
           href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
           > مزن</a
+          
+     -->
+        
         ><button
           class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
           type="button"
           v-on:click="toggleNavbar()"
+          
         >
           <i class="text-white fas fa-bars"></i>
         </button>
@@ -28,34 +42,36 @@
         
         <ul class="flex flex-col lg:flex-row list-none justify-center items-center mr-auto  ">
          
-          <li class="flex items-center">
+          <li class="flex items-center mr-32">
             <button
-              class="bg-transparent hover:bg-blue-200 text-white font-Changa hover:text-white py-2 px-4 border border-blue-300 hover:border-transparent rounded"
+              class="bg-transparent hover:bg-blue-200 text-white font-Changa hover:text-white py-2 px-4 mx-4 border border-blue-300 hover:border-transparent rounded"
               type="button"
               style="transition: all 0.15s ease 0s;"
+              
             >
-              <i class="fas fa-arrow"></i> الرئيسية
+              <a >الرئيسية</a> 
             </button>
             <button
-              class="bg-transparent hover:bg-blue-200 text-white font-Changa hover:text-white py-2 px-4 border border-blue-300 hover:border-transparent rounded"
+              class="bg-transparent hover:bg-blue-200 text-white font-Changa hover:text-white py-2 px-4 mx-4 border border-blue-300 hover:border-transparent rounded"
               type="button"
               style="transition: all 0.15s ease 0s;"
+              
             >
-              <i class="fas fa-arr"></i> من نحن
+            <a href="#" v-scroll-to="'#scrollWho'">من نحن </a> 
             </button>
             <button
-              class="bg-transparent hover:bg-blue-200 text-white font-Changa hover:text-white py-2 px-4 border border-blue-300 hover:border-transparent rounded"
+              class="bg-transparent hover:bg-blue-200 text-white font-Changa hover:text-white py-2 px-4 mx-4 border border-blue-300 hover:border-transparent rounded"
               type="button"
               style="transition: all 0.15s ease 0s;"
             >
-              <i class="fas fa"></i> المؤسسون
+            <a href="#" v-scroll-to="'#scrollTeam'">المؤسسون   </a> 
             </button>
             <button
-              class="bg-transparent hover:bg-blue-200 text-white font-Changa hover:text-white py-2 px-4 border border-blue-300 hover:border-transparent rounded"
+              class="bg-transparent hover:bg-blue-200 text-white font-Changa hover:text-white py-2 px-4 mx-4 border border-blue-300 hover:border-transparent rounded"
               type="button"
               style="transition: all 0.15s ease 0s;"
             >
-              <i class="fas fa"></i> إتصل بنا
+            <a href="#" v-scroll-to="'#scrollEmail'">إتصل بنا   </a> 
             </button>
             
           </li>
@@ -111,7 +127,8 @@ export default {
   methods: {
     toggleNavbar: function(){
       this.showMenu = !this.showMenu;
-    }
+    },
+   
   }
 }
 </script>
