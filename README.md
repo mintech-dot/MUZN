@@ -1,4 +1,4 @@
-# muzn-website
+# muzn-Elearning
 
 ## Project setup
 ```
